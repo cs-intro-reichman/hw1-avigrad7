@@ -9,6 +9,6 @@ public class Bill3 {
 
 		double pricePerPerson = Math.ceil((double)price / 3);
 
-		System.err.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + pricePerPerson + " Shekels each.");
+		System.err.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + pricePerPerson + " Shekels each");
 	}
 }
