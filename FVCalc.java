@@ -8,7 +8,7 @@ public class FVCalc {
 		double interestOverTime = Math.pow(interestRate + 1, years);
 		double futureValue = startValue * interestOverTime;
 		// After 2 years, $100 saved at 10.0% will yield $121
-		System.out.println("After " + years + " years, $" + startValue + " saved at " + 
+		System.out.println("After " + years + " years, a $" + startValue + " saved at " + 
 							(interestRate * 100) + "% will yield $" + (int)futureValue);
 	}
 }
